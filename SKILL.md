@@ -7,6 +7,12 @@ description: Conduct systematic qualitative research on Circular Bio Economy ini
 
 This skill provides a systematic methodology for researching and analyzing **Circular Bio Economy** initiatives using qualitative research frameworks. Circular Bio Economy initiatives convert biological waste or byproducts — such as animal manure, agricultural residue, food waste, or organic material — into high-value goods (energy, compost, chemicals, materials, food, or bio-products) through biological processes (anaerobic digestion, fermentation, enzymatic hydrolysis, composting) or standard physicochemical treatment, with the goal of eliminating waste from biological value chains. The skill is designed for thesis research, policy analysis, or stakeholder mapping where you need to document 25+ such initiatives with structured metadata, institutional relationships, and public content availability.
 
+## Research Goal
+
+This skill supports a thesis investigating how fragmented Circular Bio Economy activities in Nepal can be understood, analyzed, and coordinated through orchestration mechanisms to support ecosystem emergence under conditions of limited state capacity. Comprehensive data collection on CBE initiatives is the foundation — the mapped data is then analyzed to identify barriers constraining CBE, coordination gaps between actors, and orchestration potential, leading to a context-sensitive orchestration model.
+
+The **interactive dashboard** functions as an intermediary visualization tool: it makes the collected initiative data explorable and refinable, and helps surface patterns that feed the barrier and coordination gap analysis.
+
 ## When to Use This Skill
 
 Use this skill when you need to:
@@ -49,15 +55,23 @@ Each initiative is classified by its primary Circular Bio Economy pathway — th
 - **Waste-to-Feed / Waste-to-Food** — Organic waste → animal feed or food via biological conversion (insect farming, algae cultivation, fermented food)
 - **Multi-pathway** — Integrated systems addressing multiple Circular Bio Economy pathways simultaneously
 
-### Coordination State
+### Coordination and Barriers
 
-Document how initiatives relate to each other:
+Both fields use a **two-stage process** following Mayring's (2014) qualitative content analysis:
 
-| State | Definition | Example |
-|-------|-----------|----------|
-| **Formal** | Documented partnerships, MOUs, coordinated programs | AEPC-BSP-Nepal-NBPA ecosystem |
-| **Informal** | Loose networks, shared resources, indirect collaboration | Local entrepreneurs sharing knowledge |
-| **Isolated** | Standalone operations with minimal external coordination | Early-stage startup with no formal partnerships |
+**Stage 1 — Data collection (in the JSON schema):** Extract observations verbatim or paraphrased from publicly available source content. Do not apply any category labels at this stage. Record what the source says, as specifically as possible.
+
+**Stage 2 — Thematic coding (post-collection analysis):** Once observations are pooled across all initiatives, apply Mayring's inductive category development to derive categories from the material itself.
+
+**`barriers`** — Record each constraint as described in the source (news articles, reports, interviews, government documents).
+
+> Example: *"Biocomp Nepal struggled to secure commercial bank loans due to lack of collateral"* — not *"financial barrier"*
+
+**`coordination`** — Record each coordination relationship or its explicit absence as described in the source.
+
+> Example: *"BSP-Nepal receives technical backstopping from SNV Netherlands"* or *"No formal partnership with any academic institution identified"*
+
+No pre-set category labels (e.g., financial / policy / capacity) are applied during data collection. These emerge from the thematic coding process in Phase 6.
 
 ### Public Content Level
 
@@ -87,16 +101,22 @@ Define your research scope:
 
 ### Phase 2: Initiative Identification
 
-Search for initiatives using multiple methods:
+Search for initiatives using multiple complementary methods:
 
+**Web and media sources:**
 - **Web search** — Circular Bio Economy searches (e.g., "biogas Nepal", "Circular Bio Economy companies", "biological waste valorization")
 - **YouTube** — Local language channels, documentaries, project videos (e.g., Nepali YouTubers for Nepal projects)
-- **Government portals** — .gov.np, ministry websites, regulatory databases
-- **NGO/INGO directories** — Sector-specific networks (e.g., Clean Cooking Alliance, REC Nepal)
-- **Academic databases** — MDPI, SSRN, ResearchGate for research initiatives
 - **News archives** — Local and international media coverage
 - **Social media** — Facebook, LinkedIn, Instagram for emerging initiatives
+
+**Institutional and document sources:**
+- **Government portals** — .gov.np, ministry websites, regulatory databases, policy documents, national bioeconomy strategies
+- **NGO/INGO directories and reports** — Sector-specific networks (e.g., Clean Cooking Alliance, REC Nepal), project evaluation reports, donor assessments
+- **Academic databases** — MDPI, SSRN, ResearchGate, Scopus — for research on CBE initiatives and sector analyses
+- **Private sector reports** — Company sustainability reports, sector white papers, industry assessments
 - **Stakeholder referrals** — Ask existing initiatives about similar organizations
+
+> **Note on Academia:** In the Quintuple Helix, Academia (A) refers to universities, research institutes, and technical training centers that are **active participants** in CBE initiatives — not merely academic papers as data sources. An academic institution counts as an actor when it conducts applied research, provides technical training, or partners with industry/government on CBE projects.
 
 **Recursive search:** When you find one initiative, search for similar ones it mentions or partners with. This recursive approach helps identify ecosystem clusters.
 
@@ -115,7 +135,6 @@ For each initiative, extract:
 | **Outputs** | High-value products or energy produced | Compost, biogas, platform chemicals |
 | **Key Fact** | Distinctive characteristic | "Handles 10,000–12,000 tonnes annually" |
 | **Quintuple Helix** | Actor involvement | I-C-E (Industry-Civil Society-Environment) |
-| **Coordination State** | Relationship to ecosystem | Formal, Informal, Isolated |
 | **Public Content Level** | Documentation availability | High, Medium-High, Medium, Low-Medium |
 | **Evidence Strength** | Confidence in data (1–5) | 5 (very high confidence) |
 | **CO₂ Reduction** | Annual emissions reduction (if available) | 4,070 tonnes/year |
@@ -123,6 +142,8 @@ For each initiative, extract:
 | **Women %** | Gender participation rate | 42% |
 | **Waste Handled** | Annual waste volume (if available) | 12,000 tonnes/year |
 | **Description** | 200–300 word summary | Comprehensive narrative of initiative |
+| **Barriers** | Observed constraints extracted from source content | "Struggled to secure bank loans due to lack of collateral" |
+| **Coordination** | Observed relationships or their absence extracted from source content | "Receives technical support from SNV Netherlands" |
 | **Sources** | Primary documentation sources | UNFCCC, official website, news articles |
 | **News Links** | Media coverage with URLs | Array of news articles and media references |
 
@@ -141,10 +162,45 @@ For each initiative, verify public content availability:
 Organize findings for analysis:
 
 1. **Create project database** — Structured JSON or CSV with all metadata
-2. **Build interactive filters** — Filter by Quintuple Helix, sector, coordination state, content level
+2. **Build interactive filters** — Filter by Quintuple Helix, sector, content level
 3. **Generate visualizations** — Charts showing sector distribution, actor involvement, coordination networks
 4. **Map ecosystem** — Show partnerships, funding flows, technology transfer relationships
 5. **Identify gaps** — Circular Bio Economy pathways or actor combinations with few initiatives (research and investment opportunities)
+
+### Phase 6: Thematic Coding (Mayring, 2014)
+
+Once the initiative database is complete and loaded into the dashboard, apply Mayring's inductive category development to the pooled `barriers` and `coordination` observations across all initiatives. This phase transforms raw observations into a scientific coding framework.
+
+**Step 1 — Define the coding unit**
+The coding unit is a single observation string within a `barriers` or `coordination` array. Each string is treated as one unit of meaning.
+
+**Step 2 — Open coding**
+Read through all observations without applying pre-defined categories. Assign a short descriptive label to each observation that captures its essential meaning.
+
+> *"Struggled to secure bank loans"* → label: `credit access barrier`
+> *"Receives technical training from BSP-Nepal"* → label: `technical support relationship`
+
+**Step 3 — Inductive category formation**
+Group similar open codes into emerging categories. Categories are defined by what is found in the material — not imposed in advance. After processing approximately 30–50% of observations, pause and revise the emerging category scheme for consistency.
+
+**Step 4 — Category revision and definition**
+For each category, write:
+- A clear **definition** (what belongs in this category)
+- An **anchor example** (a prototypical observation from the data)
+- **Coding rules** (how to handle borderline cases)
+
+**Step 5 — Final coding pass**
+Apply the finalized category scheme to all observations across all initiatives. Each observation receives one primary category label (and optionally a secondary label if it spans two categories). Store coded results in `barriers_coded` and `coordination_coded` — **the original `barriers` and `coordination` arrays are never modified**. The originals remain as the audit trail and source of truth.
+
+**Step 6 — Inter-coder reliability check**
+Have a second coder independently apply the category scheme to a random 20% sample of observations. Calculate agreement using Cohen's Kappa (target: κ ≥ 0.70). Resolve disagreements through discussion and refine coding rules as needed.
+
+**Step 7 — Interpretation**
+Aggregate coded observations to identify:
+- For `barriers`: which constraint types dominate, which sectors or actor types face them most
+- For `coordination`: which relationship types are present, which are absent, and where coordination gaps cluster
+
+This coded output feeds directly into the barrier analysis, coordination gap analysis, and orchestration potential evaluation stages of the thesis.
 
 ## Data Structure Template
 
@@ -176,21 +232,38 @@ Use this JSON structure for each initiative:
   "description": "200-300 word narrative description",
   "quintuple_helix": "I-C-E",
   "sector": "composting",
-  "coordination_state": "Formal",
-  "public_content_level": "High"
+  "public_content_level": "High",
+  "barriers": [
+    "Observed barrier extracted verbatim or paraphrased from source content",
+    "Another barrier as described in news, reports, or interviews"
+  ],
+  "barriers_coded": [
+    { "observation": "Observed barrier text", "category": "Category label derived from thematic coding" }
+  ],
+  "coordination": [
+    "Observed coordination relationship extracted from source content",
+    "Another coordination observation, e.g. absence of partnerships"
+  ],
+  "coordination_coded": [
+    { "observation": "Observed coordination text", "category": "Category label derived from thematic coding" }
+  ]
 }
 ```
 
 ## Implementation in Interactive Dashboard
 
-Once research is complete, implement an interactive dashboard (using React, Vue, or similar) that enables:
+The interactive dashboard is an **intermediary research tool** built once a working dataset exists. It makes the collected initiative data explorable, helps surface patterns (sector gaps, actor dominance, coordination weaknesses), and supports iterative improvement of the research database before the final barrier and coordination gap analysis begins.
+
+Implement using React, Vue, or similar:
 
 1. **Project cards** — Display each initiative with all metadata, expandable for full description
-2. **Research filters** — Filter by Quintuple Helix configuration, sector, coordination state, content level
+2. **Research filters** — Filter by Quintuple Helix configuration, sector, content level
 3. **Data visualizations** — Bar charts (sector distribution), pie charts (actor involvement), radar charts (ecosystem complexity)
 4. **News/media links** — Clickable links to news articles and documentation for each initiative
 5. **Export functionality** — Download filtered project list as CSV for thesis bibliography
 6. **Timeline visualization** — Show when initiatives were established and when media coverage peaked
+
+The dashboard feeds into — but does not replace — the subsequent stages of the research: barrier identification, coordination gap analysis, orchestration potential evaluation, and model development.
 
 ## Reference Documents
 
