@@ -86,6 +86,78 @@ Assess content availability for qualitative analysis:
 | **Low-Medium** | Sparse documentation | Minimal web presence, limited news |
 | **Low** | Very limited public documentation | Primarily word-of-mouth, minimal online presence |
 
+## Initiative Search and Qualification Keywords
+
+Use this section to find initiatives and determine whether each qualifies for the CBE database. Apply all four layers in sequence: search → include → exclude → classify by sector.
+
+### Search Keywords
+
+Use these terms to discover initiatives across web, media, and document sources:
+
+**General CBE terms:**
+`circular bio economy`, `biological waste valorization`, `bio-waste to value`, `organic waste recovery`, `biological byproduct`, `waste to resource`, `bio-based product`, `biological circular economy`
+
+**Process terms:**
+`anaerobic digestion`, `biogas production`, `composting`, `vermicomposting`, `fermentation`, `enzymatic hydrolysis`, `biorefining`, `biomass conversion`, `insect farming`, `algae cultivation`, `bio-CNG`
+
+**Output terms:**
+`organic fertilizer`, `compost`, `biogas`, `bioethanol`, `platform chemicals`, `bio-leather`, `hemp fiber`, `biopesticide`, `herbal extract`, `animal feed from waste`, `bio-plastic`
+
+**Nepal-specific terms:**
+`biogas Nepal`, `organic waste Nepal`, `waste management Nepal`, `bio-circular Nepal`, `agricultural waste Nepal`, `Nepali compost`, `biorefinery Nepal`, `bio-enterprise Nepal`
+
+---
+
+### Inclusion Criteria Keywords
+
+An initiative qualifies for the CBE database if its source content contains signals matching **all three criteria**:
+
+| Criterion | Signal keywords |
+|-----------|----------------|
+| **Biological input** | animal manure, cow dung, agricultural residue, food waste, organic waste, market waste, crop residue, biomass, biological byproduct, plant material, organic material |
+| **High-value output** | energy, compost, fertilizer, biogas, ethanol, chemicals, fiber, leather, packaging, feed, food, cosmetics, pharmaceuticals, bio-products |
+| **Treatment process** | anaerobic digestion, fermentation, composting, enzymatic hydrolysis, biorefining, biological conversion, physicochemical treatment, aerobic decomposition |
+
+> If all three signals are present → **include** in database.
+> If only one or two are present → investigate further before including.
+
+---
+
+### Exclusion Keywords
+
+Filter out initiatives where source content primarily signals these non-CBE activities:
+
+| Reason for exclusion | Exclusion keywords |
+|----------------------|--------------------|
+| **Conventional recycling** (mechanical, non-biological) | plastic recycling, metal recycling, e-waste, paper recycling without bio-input |
+| **Fossil fuel energy** | coal, diesel, petroleum, natural gas, conventional electricity |
+| **Waste disposal without valorization** | landfill, incineration, waste dumping, waste transport only |
+| **Non-biological input** | industrial chemical waste, heavy metals, synthetic materials |
+| **No value recovery** | waste management only, sanitation only, sewage treatment only |
+
+> If exclusion keywords dominate with no biological valorization signal → **exclude** from database.
+
+---
+
+### Sector-Specific Keywords
+
+Use these to classify an included initiative into one of the eight CBE sectors:
+
+| Sector | Keywords |
+|--------|----------|
+| **Biogas / Bio-Energy** | biogas, bio-CNG, anaerobic digestion, methane, biodigester, cooking fuel from waste, electricity from waste, household digester |
+| **Composting** | compost, vermicompost, organic fertilizer, aerobic decomposition, windrow composting, market waste composting |
+| **Waste Valorization** | banana fiber, hemp fiber, waste-to-fiber, bio-plastic, elephant dung paper, agricultural residue to material, waste-to-material |
+| **Biorefining** | enzymatic hydrolysis, 2G bioethanol, platform chemicals, lactic acid, succinic acid, protein extraction, fermentation from biomass |
+| **Alternative Bio-Materials** | mycelium leather, bio-leather, hemp textile, plant-based packaging, cactus leather, pineapple fiber, bio-based substitute |
+| **Bio-Products** | herbal extract, medicinal plant, biopesticide, botanical cosmetics, herbal supplement, plant-based skincare |
+| **Waste-to-Feed / Waste-to-Food** | black soldier fly, insect farming, spirulina, algae cultivation, fermented animal feed, food waste to feed |
+| **Multi-Pathway** | integrated waste system, circular economy hub, biogas and composting, multiple bio-pathways, waste-to-energy-and-fertilizer |
+
+> Assign the sector whose keywords most closely match the initiative's **primary output and process**. If two sectors match equally, classify as **Multi-Pathway**.
+
+---
+
 ## Research Workflow
 
 ### Phase 1: Research Planning
