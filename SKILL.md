@@ -47,7 +47,8 @@ Each initiative is classified by which actors are involved (e.g., "G-I" = Govern
 Each initiative is classified by its primary Circular Bio Economy pathway — the specific route by which biological waste or byproduct is converted into a high-value output:
 
 - **Biogas / Bio-energy** — Biological waste → energy via anaerobic digestion (biogas, bio-CNG, electricity)
-- **Composting** — Organic waste → soil amendment via aerobic decomposition (compost, organic fertilizer)
+- **Composting** — Organic waste → soil amendment via aerobic decomposition (compost, organic fertilizer), including vermicomposting and other composting utilizing agricultural residues and bio-waste.
+
 - **Waste Valorization** — Biological waste → higher-value materials via physical/chemical conversion (fibers, bio-plastics, paper)
 - **Biorefining** — Biomass/bio-waste → high-value compounds via enzymatic hydrolysis or fermentation (platform chemicals, 2G bioethanol, proteins)
 - **Alternative Bio-Materials** — Renewable biological feedstock → substitutes for conventional materials (bio-leather, hemp textiles, plant-based packaging)
