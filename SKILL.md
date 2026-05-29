@@ -36,11 +36,11 @@ The Quintuple Helix identifies five actor categories involved in innovation ecos
 |-------|--------|----------|
 | **Government** | G | Policy bodies, regulatory agencies, public institutions (e.g., AEPC in Nepal) |
 | **Industry** | I | Private companies, social enterprises, commercial ventures (e.g., Biocomp Nepal) |
-| **Academia** | A | Universities, research institutes, technical training centers |
+| **Academia** | A | Universities, government and private research centers, innovation hubs, innovation centers, and research labs that are **active participants** in CBE initiatives — conducting applied research, operating demonstration plants, providing technical training, or acting as named partners in government or industry CBE projects. Includes: university departments, national research councils (e.g., NARC, NAST, RECAST), private R&D institutes, technology incubators, and innovation hubs that translate CBE research into practice. Academia counts as an actor when the institution actively participates — not merely because papers about a topic exist. Outputs include: research findings, trained technicians, demonstration prototypes, incubated startups, policy recommendations, and knowledge brokering between actors. **Classification note:** Government-funded research centers = A-G; private for-profit R&D = A-I; independent non-profit research institutes = A; innovation hubs with mixed funding = A-I or A-G depending on primary funder. |
 | **Civil Society** | C | NGOs, community organizations, social movements, women's groups |
 | **Environment** | E | Environmental actors, natural resource management, ecosystem stewardship |
 
-Each initiative is classified by which actors are involved (e.g., "G-I" = Government-Industry partnership, "I-C-E" = Industry-Civil Society-Environment coalition).
+Each initiative is classified by which actors are involved (e.g., "G-I" = Government-Industry partnership, "I-C-E" = Industry-Civil Society-Environment coalition, "A-I" = Academia-Industry research partnership).
 
 ### Sector Classification
 
@@ -106,6 +106,20 @@ Use these terms to discover initiatives across web, media, and document sources:
 
 **Nepal-specific terms:**
 `biogas Nepal`, `organic waste Nepal`, `waste management Nepal`, `bio-circular Nepal`, `agricultural waste Nepal`, `Nepali compost`, `biorefinery Nepal`, `bio-enterprise Nepal`
+
+**Academic actor search terms:**
+
+*Universities and technical institutes:*
+`Kathmandu University biogas`, `IOE waste research`, `university CBE Nepal`, `applied research biorefining Nepal`, `research lab composting Nepal`, `university industry partnership waste Nepal`, `demonstration plant university Nepal`, `technical training biogas Nepal`, `faculty research biological waste Nepal`, `graduate research circular economy Nepal`
+
+*Government research centers and councils:*
+`NARC composting Nepal`, `NARC agricultural waste`, `NAST applied research Nepal`, `RECAST environmental research`, `government research center biogas Nepal`, `national research council bio-waste Nepal`, `ministry research institute CBE Nepal`
+
+*Private research centers and R&D institutes:*
+`private research institute waste valorization Nepal`, `R&D center biorefining Nepal`, `foundation research biological waste Nepal`, `donor-funded research CBE Nepal`, `applied research institute composting Nepal`
+
+*Innovation hubs and incubators:*
+`innovation hub bio-waste Nepal`, `startup incubator circular economy Nepal`, `innovation center waste valorization Nepal`, `bio-based startup Nepal`, `green innovation hub Nepal`, `university innovation center CBE Nepal`, `Karkhana bio Nepal`, `tech incubator waste Nepal`
 
 ---
 
@@ -189,7 +203,36 @@ Search for initiatives using multiple complementary methods:
 - **Private sector reports** — Company sustainability reports, sector white papers, industry assessments
 - **Stakeholder referrals** — Ask existing initiatives about similar organizations
 
-> **Note on Academia:** In the Quintuple Helix, Academia (A) refers to universities, research institutes, and technical training centers that are **active participants** in CBE initiatives — not merely academic papers as data sources. An academic institution counts as an actor when it conducts applied research, provides technical training, or partners with industry/government on CBE projects.
+**Academic actor search (dedicated strategy):**
+
+Academic CBE actors — universities, research centers, innovation hubs, and research labs — do not appear in business directories or news feeds the same way industry or government actors do. Use these specific methods to surface them:
+
+**Universities and technical institutes:**
+- Search department pages of engineering, environmental science, biotechnology, and agriculture faculties (e.g., ku.edu.np, ioe.edu.np, pahs.edu.np). Look for: research labs, applied projects, demonstration plants, industry partnerships, government-funded research programs
+- Search thesis and dissertation repositories — Masters and PhD theses on biogas, composting, biorefining, or waste valorization often describe active university-led field projects
+- Search academic conference proceedings — IOE Graduate Conference, Nepal Engineering Conference, and regional sustainability conferences list applied research with institutional affiliations
+- Search individual faculty publication pages for field projects, industry collaborators, and government partnerships
+
+**Government research centers and councils:**
+- Search NARC (Nepal Agricultural Research Council) for composting, agricultural waste, and bio-fertilizer programs
+- Search NAST (Nepal Academy of Science and Technology) for applied CBE research programs and industry partnerships
+- Search RECAST (Research Centre for Applied Science and Technology, Tribhuvan University) for environmental and applied biology projects
+- Search ministry-affiliated research institutes for policy-linked CBE research programs
+
+**Private research centers and R&D institutes:**
+- Search privately funded research institutes and foundations active in environmental technology
+- Search company annual reports and sustainability disclosures for in-house R&D programs on biological waste treatment
+- Search donor-funded research programs (USAID, GIZ, EU) that operate through private research partners in Nepal
+
+**Innovation hubs and incubators:**
+- Search technology incubators and innovation centers (e.g., Karkhana, Antarprerana, Diyalo Foundation) for CBE-related startup programs or applied projects
+- Search university innovation centers and entrepreneurship programs for student-led CBE ventures with institutional backing
+- Search startup ecosystem directories (e.g., Bizsansar, Khalti ecosystem) for bio-based startups with innovation hub affiliations
+
+**Coordination trail (cross-cutting):**
+- When any initiative (industry, government, civil society) mentions a "research partner," "technical collaborator," "training provider," "innovation partner," or "R&D support," search that institution as a potential academic actor
+
+> **Key distinction:** An actor qualifies as A when it actively participates in a CBE initiative. A government research center primarily doing policy work → G. A private R&D lab embedded in a commercial company → I. An independent research institute conducting applied CBE field work → A. Classification follows function, not just institutional label.
 
 **Recursive search:** When you find one initiative, search for similar ones it mentions or partners with. This recursive approach helps identify ecosystem clusters.
 
@@ -200,7 +243,7 @@ For each initiative, extract:
 | Field | Description | Example |
 |-------|-------------|----------|
 | **Name** | Official organization name | Biocomp Nepal / Reclaim Nepal |
-| **Type** | Organization category | Private Social Enterprise, Government, NGO, INGO |
+| **Type** | Organization category | Private Social Enterprise, Government, NGO, INGO, University, Government Research Center, Private Research Institute, Innovation Hub, Innovation Center, Research Lab, Technical Training Center |
 | **Location** | Geographic location | Kathmandu Valley / Lalitpur |
 | **Established** | Year founded | 2011 |
 | **Pathway/Sector** | Primary Circular Bio Economy pathway | Composting, Biogas, Biorefining |

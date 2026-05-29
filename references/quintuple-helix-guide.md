@@ -52,26 +52,65 @@ The Quintuple Helix framework identifies five actor categories in innovation eco
 
 ### Academia (A)
 
-**Definition:** Universities, research institutes, technical training centers, and knowledge-generating institutions that conduct research, provide training, and develop new knowledge.
+**Definition:** Universities, government and private research centers, innovation hubs, innovation centers, research labs, and technical training centers that are **active participants** in CBE initiatives — conducting applied research, operating demonstration plants, providing technical training, incubating CBE startups, or acting as named partners in government or industry CBE projects.
+
+**Scope of actor types under Academia (A):**
+
+| Actor Type | Examples (Nepal) | Typical CBE Role |
+|------------|-----------------|-----------------|
+| **University / Technical Institute** | Kathmandu University, IOE (TU), PAHS | Applied research, demo plants, technician training |
+| **Government Research Center** | NARC, NAST, RECAST | Applied science, agricultural waste, policy-linked research |
+| **Private Research Institute** | Donor-funded research organizations, foundation labs | Field research, technology validation |
+| **Innovation Hub / Incubator** | Karkhana, Antarprerana, university innovation centers | CBE startup incubation, applied prototyping |
+| **Research Lab** | SWAT Labs, university department labs | Experimental CBE process development |
+| **Technical Training Center** | Vocational institutes, biogas training centers | Technician and operator training |
+
+**Important distinction:** Academia counts as an actor (A) when the institution *actively participates* in a CBE initiative. Academic papers are data *sources*, not evidence of actor status. A government research center primarily doing policy work classifies as G; a private R&D lab embedded in a commercial firm classifies as I. Classification follows function, not institutional label.
 
 **Characteristics:**
-- Conducts research and development
-- Provides technical training and education
-- Publishes findings and knowledge
-- Collaborates with other actors on research projects
-- Develops new methodologies and technologies
+- Conducts applied research and field demonstrations on CBE processes
+- Provides technical training and capacity building for industry, government, and civil society actors
+- Acts as **knowledge broker** — translating research findings across actor boundaries
+- Incubates CBE startups or spin-offs from research (innovation hubs)
+- Partners formally with government programs or private enterprises on CBE projects
+- Operates pilot/demonstration plants (e.g., biogas digesters, biorefinery pilots)
+- Develops and validates new CBE methodologies and technologies
 
-**Examples:**
-- Kathmandu University — Research on biogas and waste management
-- Institute of Engineering — Technical training for biogas technicians
-- SWAT Labs / Nawa Paila — Research on bio-hythane and platform chemicals
-- Agricultural research institutes — Research on agricultural waste valorization
+**Coordination role in CBE ecosystem:**
+Academic actors are often the least visible but critically important as **knowledge hubs** — they connect fragmented actors by providing shared technical standards, training multiple actor types simultaneously, and generating evidence that informs policy. Their coordination is often informal and unpublicized, making them easy to miss without targeted search. Innovation hubs play a distinct bridging role: they translate academic research into commercial CBE ventures, connecting A and I actors.
+
+**Classification decision for ambiguous cases:**
+- Government research center doing applied field CBE work → **A-G**
+- Government research center doing primarily policy analysis → **G** only
+- Private for-profit R&D center embedded in a company → **I** primarily
+- Independent non-profit research institute → **A**
+- Innovation hub with government funding → **A-G**
+- Innovation hub with private sector funding → **A-I**
+- Innovation hub incubating civil society CBE ventures → **A-C**
+
+**Examples (Nepal):**
+- Kathmandu University — Applied research on biogas, biorefining, biological waste treatment; industry and government partnerships
+- Institute of Engineering (IOE), Tribhuvan University — Technical training programs; applied environmental engineering research
+- NARC (Nepal Agricultural Research Council) — Composting and agricultural waste valorization research; government-funded applied programs
+- NAST (Nepal Academy of Science and Technology) — Applied science research with policy linkage; CBE technology assessments
+- RECAST (TU) — Applied science and technology research; environmental projects
+- SWAT Labs / Nawa Paila — Bio-hythane and platform chemicals from organic waste; university-industry coordination
+- Innovation hubs (e.g., Karkhana) — Incubation of bio-based and waste valorization startups
+
+**How to find these actors:**
+- University: department pages, thesis repositories, conference proceedings, faculty publication pages
+- Government research center: ministry websites, NARC/NAST annual reports, government research databases
+- Private research institute: donor project reports, foundation websites, ResearchGate profiles
+- Innovation hub: startup directories, incubator websites, university entrepreneurship program pages
+- Research lab: faculty pages, project databases, coordination trail from industry/government partners
 
 **Classification symbols:**
-- `A` — Academia actor alone
-- `A-I` — Academia-Industry partnership (e.g., university-industry research collaboration)
-- `A-G` — Academia-Government partnership (e.g., government-funded research)
-- `I-A-C` — Industry-Academia-Civil Society (e.g., research-driven social enterprise)
+- `A` — Academia actor alone (independent research institute; rare)
+- `A-I` — Academia-Industry (university-industry joint research, innovation hub with private sector)
+- `A-G` — Academia-Government (government-funded research center, government-commissioned applied research)
+- `A-C` — Academia-Civil Society (research institute partnering with community organizations)
+- `A-I-G` — Academia-Industry-Government (national applied research program with private sector implementation)
+- `I-A-C` — Industry-Academia-Civil Society (research-driven social enterprise with community training)
 
 ### Civil Society (C)
 
