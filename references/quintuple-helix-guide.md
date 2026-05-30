@@ -6,49 +6,176 @@ The Quintuple Helix framework identifies five actor categories in innovation eco
 
 ### Government (G)
 
-**Definition:** Policy bodies, regulatory agencies, public institutions, and government-funded organizations that set policy, provide subsidies, or coordinate sector development.
+**Definition:** Ministries, regulatory agencies, public institutions, local government bodies, government-funded programs, extension services, and policy incentive schemes that set CBE-related policy, provide subsidies or public financing, operate CBE programs, coordinate sector development, or deliver training and extension services.
+
+**Scope of actor types under Government (G):**
+
+| Actor Type | Examples (Nepal) | Typical CBE Role |
+|------------|-----------------|-----------------|
+| **Federal Ministry** | MoEWRI, MoFE, MoALD, MoICS, MoSTI, MoF, MoUD | Policy setting, regulation, national program ownership, financing |
+| **Federal Specialized Agency** | AEPC, DoE, DoA, DoLS, SWMTSC, NEA, NARC, NAST, WECS, CSIDB, NBSM, IBN | Program implementation, subsidy management, technical standards, research |
+| **Government Program / Initiative** | National Biogas Programme, REDP, BSP, GCF Nepal, NAP projects | Direct CBE program delivery, subsidy disbursement, climate finance |
+| **Provincial Government** | Koshi, Madhesh, Bagmati, Gandaki, Lumbini, Karnali, Sudurpashchim province ministries | Provincial CBE policy, provincial programs, extension coordination |
+| **Local Government** | Kathmandu MC, Lalitpur MC, Pokhara MC, Biratnagar MC, Bharatpur MC, Butwal SMC | Municipal waste management, composting mandates, local CBE schemes, ward programs |
+| **Extension Service** | District agricultural offices, provincial livestock service centers, district technical offices | Technology dissemination, composting/biogas training for farmers and communities |
+| **Policy Instrument** | Biogas subsidy, bioenergy feed-in tariff, green industry tax incentive, organic certification | Financial and regulatory enabling environment for CBE actors |
+| **Planning Body** | National Planning Commission, provincial planning commissions | CBE targets in national/provincial development plans, budget allocations |
 
 **Characteristics:**
-- Establishes policy frameworks and regulations
-- Provides subsidies, tax incentives, or public funding
-- Coordinates sector development and standards
-- Conducts public awareness campaigns
-- Operates public institutions or agencies
+- Sets policy frameworks, regulations, and standards for CBE activities
+- Provides subsidies, tax incentives, green financing, or public investment
+- Operates national and local CBE programs (biogas, composting, waste management)
+- Delivers extension and training services to farmers, communities, and enterprises
+- Coordinates between CBE actors through sector development programs
+- Mandates waste management practices (composting requirements, waste separation)
+- Issues licenses, environmental clearances, and quality certifications
 
-**Examples:**
-- Alternative Energy Promotion Centre (AEPC) — Nepal's government agency for renewable energy
-- Ministry of Environment — Policy setting and regulation
-- National Biogas Association (government-supported) — Sector coordination
-- Public universities — Government-funded research institutions
+**Government portals to search (Nepal):**
+
+*Federal ministries:*
+- moewri.gov.np — Ministry of Energy, Water Resources and Irrigation (parent of AEPC)
+- mofe.gov.np — Ministry of Forests and Environment
+- moald.gov.np — Ministry of Agriculture and Livestock Development
+- moics.gov.np — Ministry of Industry, Commerce and Supplies
+- mosti.gov.np — Ministry of Science, Technology and Innovation
+- mof.gov.np — Ministry of Finance (green bonds, subsidy budgets)
+- moud.gov.np — Ministry of Urban Development (solid waste, composting mandates)
+- mofaga.gov.np — Ministry of Federal Affairs and General Administration
+- mowcsc.gov.np — Ministry of Women, Children and Senior Citizens
+- mohp.gov.np — Ministry of Health and Population (biomedical waste)
+
+*Federal specialized agencies:*
+- aepc.gov.np — Alternative Energy Promotion Centre
+- doe.gov.np — Department of Environment
+- dofsc.gov.np — Department of Forests and Soil Conservation
+- doa.gov.np — Department of Agriculture
+- dls.gov.np — Department of Livestock Services
+- doind.gov.np — Department of Industries
+- csidb.gov.np — Cottage and Small Industries Development Board
+- nbsm.gov.np — Nepal Bureau of Standards and Metrology
+- ibn.gov.np — Investment Board Nepal
+- swmtsc.gov.np — Solid Waste Management Technical Support Centre
+- nea.org.np — Nepal Electricity Authority
+- wecs.gov.np — Water and Energy Commission Secretariat
+- npc.gov.np — National Planning Commission
+- narc.gov.np — Nepal Agricultural Research Council
+- nast.gov.np — Nepal Academy of Science and Technology
+- idml.gov.np — Industrial Districts Management Limited
+- adbl.com.np — Agricultural Development Bank of Nepal
+
+*Provincial governments (all 7 provinces):*
+- koshi.gov.np — Koshi Province (Biratnagar)
+- madhesh.gov.np — Madhesh Province (Janakpur)
+- bagmati.gov.np — Bagmati Province (Hetauda)
+- gandaki.gov.np — Gandaki Province (Pokhara)
+- lumbini.gov.np — Lumbini Province (Deukhuri/Butwal)
+- karnali.gov.np — Karnali Province (Birendranagar/Surkhet)
+- sudurpashchim.gov.np — Sudurpashchim Province (Dhangadhi)
+
+*Metropolitan and sub-metropolitan cities:*
+- kathmandu.gov.np, lalitpur.gov.np, pokharamun.gov.np
+- Biratnagar, Birgunj, Bharatpur, Butwal, Hetauda, Dharan, Itahari city websites
+
+**Government news and publications to search:**
+- Gorkhapatra (gorkhapatra.org.np) — Official announcements, program launches
+- RSS / Rastriya Samachar Samiti (rss.com.np) — Government press releases
+- Ministry annual reports and review documents
+- National Planning Commission publications
+- Parliament committee reports on environment, energy, agriculture
+- Government gazette (rajpatra.gov.np) — Policy and regulation notifications
+
+**Policy instruments to identify:**
+- Biogas subsidy schedules (household and institutional)
+- Feed-in tariff for biogas electricity
+- Tax incentives for bio-based industries
+- Composting mandates in municipal waste regulations
+- Organic certification and bio-product standards
+- Green procurement policies favouring bio-based products
+- Climate finance and green bond schemes
+
+**Classification decision for ambiguous cases:**
+- Government ministry running its own CBE field program → **G**
+- Government agency providing subsidies that enable private CBE → **G-I**
+- Government program implemented through NGOs → **G-C**
+- Government-funded research through a university → **G-A** (or A-G)
+- Local government composting program with NGO delivery → **G-C**
+- National program with government, private, and civil society → **G-I-C**
 
 **Classification symbols:**
-- `G` — Government actor alone
-- `G-I` — Government-Industry partnership (e.g., subsidies enabling private sector)
-- `G-C` — Government-Civil Society partnership (e.g., government supporting NGO programs)
-- `G-I-C` — Government-Industry-Civil Society (e.g., coordinated sector development)
+- `G` — Government actor alone (government-run program with no formal external partners)
+- `G-I` — Government-Industry (subsidies, public-private partnerships, industrial policy)
+- `G-C` — Government-Civil Society (government-NGO program delivery)
+- `G-A` — Government-Academia (government-funded applied research)
+- `G-I-C` — Government-Industry-Civil Society (coordinated sector development)
+- `G-I-C-E` — All actors except Academia (comprehensive multi-stakeholder program)
 
 ### Industry (I)
 
-**Definition:** Private companies, social enterprises, commercial ventures, and market-driven organizations that develop, produce, or commercialize products and services.
+**Definition:** Private companies, startups, social enterprises, commercial ventures, private financial institutions with CBE-specific products, private incubators, and private equity or venture capital funds that develop, produce, commercialize, or finance CBE activities.
+
+**Scope of actor types under Industry (I):**
+
+| Actor Type | Examples (Nepal) | Typical CBE Role |
+|------------|-----------------|-----------------|
+| **Established CBE Company** | Biocomp Nepal, HBR Nepal, Himalayan Bio Refineries, Royal Hemp Nepal, Herveda Botanicals | Direct CBE production, processing, and commercialization |
+| **CBE Startup / Spin-off** | Zero Circular, CiBiS, Ecokanduk, Ecoorb Ventures | Emerging CBE ventures, pilot-scale operations |
+| **Social Enterprise** | Waste-to-value social enterprises, cooperative-based ventures | CBE with explicit social mission and community engagement |
+| **Biogas Equipment Manufacturer** | Biogas plant manufacturers, digester suppliers | CBE infrastructure supply chain |
+| **Private Commercial Incubator** | Private business incubators supporting bio-based startups | CBE startup incubation, business model support (not university-affiliated) |
+| **Industry Association** | Nepal Biogas Promotion Association (NBPA), NABA, NAIC, SABAH Nepal | Sector coordination, industry standards, CBE advocacy |
+| **Private Financial Institution** | NMB Bank, NIC Asia (green products), RMDC, Sana Kisan Bikas Bank | CBE-specific green loans, impact finance, microfinance for bio-enterprises |
+| **Private Equity / Venture Capital** | Dolma Fund, Himalayan Climate Initiative, Rockstart AgriFood | CBE investment, growth financing, startup scaling |
+| **Impact Investor** | Acumen Fund, Shell Foundation, Skoll Foundation Nepal programs | Patient capital for CBE social enterprises |
+| **Private R&D Facilitator** | Private technical consultancies, testing labs, certification bodies | CBE feasibility, technology validation, bio-product certification |
 
 **Characteristics:**
-- Develops and commercializes technology
-- Operates for-profit or social enterprise models
-- Creates market competition and innovation
-- Employs workers and generates revenue
-- Scales solutions for market adoption
+- Develops, produces, and commercializes CBE products and services
+- Operates for-profit, social enterprise, or cooperative models
+- Supplies CBE infrastructure (biogas plants, composting equipment)
+- Finances CBE enterprises through dedicated green/impact products
+- Incubates and accelerates CBE startups (private commercial incubators)
+- Coordinates the CBE sector through industry associations
+- Creates market competition and drives CBE innovation
 
-**Examples:**
-- Biocomp Nepal — Private social enterprise for composting
-- HBR Nepal — Private company for bioethanol production
-- Himalayan Bio Refineries — Commercial biorefining venture
-- Small biogas equipment manufacturers — Private sector suppliers
+**Classification notes for ambiguous cases:**
+- Private commercial incubator → **I** (not A, which is reserved for university-affiliated incubators)
+- Bank offering generic loans to a CBE company → **not a CBE actor**; bank with dedicated CBE green finance product → **I** or **G-I** if co-funded by government
+- Industry association → **I** when it coordinates private sector CBE actors and sets industry standards
+- Social enterprise with strong community engagement → **I-C**
+- Social enterprise with environmental mission → **I-C-E**
+- Private company with formal university R&D partnership → **I-A**
+
+**Examples (Nepal):**
+- Biocomp Nepal — Composting social enterprise; market waste to organic fertilizer
+- HBR Nepal / Himalayan Bio Refineries — 2G bioethanol from bamboo and rice straw
+- Royal Hemp Nepal — Hemp fiber footwear and apparel; alternative bio-materials
+- Herveda Botanicals — Ethical skincare from medicinal herbs; bio-products
+- Zero Circular — Corn starch to bio-plastic; waste valorization startup
+- CiBiS (Circular Bioeconomy Solutions) — Insect farming on organic waste
+- Ecokanduk — Banana trunk and hemp stem to fiber; waste valorization
+- Ecoorb Ventures — Elephant dung to paper and bags
+- Nepal Biogas Promotion Association (NBPA) — Industry association for biogas sector
+- Dolma Fund — Nepal's first VC; potential CBE portfolio investments
+- Rockstart AgriFood — International accelerator with Nepal CBE cohort initiatives
+
+**How to find industry CBE actors:**
+- Business registration databases (OCR Nepal, company registrar)
+- Industry association member lists (NBPA, FNCCI, CNI, NABA, NAIC)
+- Startup databases (Bizsansar, StartupNepal, BOD Group portfolio)
+- Accelerator and incubator portfolios (Rockstart, UNCDF, WFP Innovation)
+- Financial institution green product pages and sustainability reports
+- PE/VC databases (Crunchbase, PitchBook) for Nepal bio-based funding rounds
+- Startup competition records (Hult Prize Nepal, social innovation awards)
+- LinkedIn and social media for recently registered CBE ventures
 
 **Classification symbols:**
-- `I` — Industry actor alone
-- `I-C` — Industry-Civil Society partnership (e.g., social enterprise model)
-- `I-A` — Industry-Academia partnership (e.g., research collaboration)
-- `I-C-E` — Industry-Civil Society-Environment (e.g., social enterprise with environmental focus)
+- `I` — Industry actor alone (private company with no formal external partnerships)
+- `I-C` — Industry-Civil Society (social enterprise with community engagement)
+- `I-E` — Industry-Environment (commercial venture with explicit environmental mission)
+- `I-A` — Industry-Academia (private company with university R&D partnership)
+- `I-G` — Industry-Government (private sector receiving government subsidy or operating under government program)
+- `I-C-E` — Industry-Civil Society-Environment (social enterprise with environmental mission)
+- `I-A-G` — Industry-Academia-Government (private-university-government research commercialization)
 
 ### Academia (A)
 
@@ -114,49 +241,156 @@ Academic actors are often the least visible but critically important as **knowle
 
 ### Civil Society (C)
 
-**Definition:** NGOs, community organizations, social movements, women's groups, and grassroots organizations that advocate for social or environmental change and mobilize communities.
+**Definition:** Local NGOs, INGOs, community-based organizations (CBOs), women's groups and cooperatives, farmers' groups, biogas and waste user groups, youth organizations, faith-based organizations, and civic networks that mobilize communities, deliver CBE programs, advocate for policy change, or build capacity among CBE actors.
+
+**Scope of actor types under Civil Society (C):**
+
+| Actor Type | Examples (Nepal) | Typical CBE Role |
+|------------|-----------------|-----------------|
+| **Local NGO** | WEPCO, BSP-Nepal, REC Nepal, Practical Action Nepal, LI-BIRD | Direct CBE program delivery, community mobilization, capacity building |
+| **INGO** | SNV, GIZ, Practical Action, HELVETAS, iDE, Clean Cooking Alliance, Winrock, Atmosfair | CBE program implementation, technical support, carbon finance |
+| **Community-Based Organization (CBO)** | Community Forest User Groups (CFUGs), ward waste groups | Grassroots CBE activity, community-level waste management |
+| **Biogas / Waste User Group** | Community biogas user groups, household digester collectives | Operating and maintaining community CBE assets |
+| **Women's Group / Cooperative** | Women's savings cooperatives, WEPCO members | Women-led bio-enterprises, gender-inclusive CBE |
+| **Farmers' Cooperative** | Organic farmer cooperatives, agricultural waste collectives | Composting, organic fertilizer, agricultural bio-waste management |
+| **Civic Network / Platform** | Clean Cooking Alliance Nepal chapter, NGO-FON | Sector coordination, policy advocacy, knowledge sharing |
+| **Faith-Based Organization** | Religiously affiliated community development organizations | Community mobilization for CBE in rural areas |
+| **Youth Organization** | Environmental youth groups, student-led CBE initiatives | CBE advocacy, awareness, pilot activities |
 
 **Characteristics:**
-- Mobilizes communities and grassroots action
-- Advocates for social or environmental change
-- Provides training and capacity building
-- Operates on non-profit or mission-driven basis
-- Represents marginalized or underrepresented groups
+- Mobilizes communities for grassroots CBE activities
+- Implements CBE programs funded by donors or government
+- Advocates for policy change supporting CBE
+- Provides training and capacity building to communities and other actors
+- Connects marginalized groups (women, smallholders) to CBE opportunities
+- Operates as intermediary between government programs and communities
+- Manages carbon credit programs and community benefit sharing
 
-**Examples:**
-- Women Environment Preservation Committee (WEPCO) — Community-based waste management
-- Roots of Circularity Programme — NGO-led Circular Bio Economy initiative
-- Community biogas user groups — Grassroots organizations
-- Women's cooperatives — Community-based social enterprises
+**INGOs directly active in Nepal CBE:**
+- **SNV Netherlands** — Biogas Support Programme, WASH, agricultural development; major Nepal biogas actor
+- **GIZ Germany** — Renewable energy, waste management, sustainable development programs
+- **Practical Action Nepal** — Appropriate technology, biogas, waste valorization
+- **HELVETAS Nepal** — Rural development, livelihood programs with bio-waste components
+- **iDE Nepal** — Market systems development, biogas, WASH programs
+- **Clean Cooking Alliance** — Clean cooking including biogas programs
+- **Winrock International** — Agriculture, bioenergy, waste valorization
+- **Atmosfair** — UNFCCC-registered carbon credits for Nepal biogas
+- **myclimate Foundation** — Carbon offsetting for Nepal biogas CDM projects
+- **Gold Standard Foundation** — Carbon certification for CBE initiatives
+- **Mercy Corps Nepal** — Community livelihoods with bio-enterprise components
+- **Solidaridades International** — Waste management and sanitation programs
+
+**Key CBOs and community actors:**
+- Community Forest User Groups (CFUGs) via FECOFUN — forest biomass and bio-waste
+- Biogas User Groups — community operation of household and institutional digesters
+- Farmers' cooperatives (National Cooperative Federation Nepal) — composting, organic fertilizer
+- Women's cooperatives — women-led bio-enterprises and waste management groups
+- Ward-level waste management groups — community composting initiatives
+
+**Classification decision for ambiguous cases:**
+- INGO with its own CBE field operations → **C**
+- INGO that only funds a local NGO → donor role, classify the local NGO as C
+- INGO with both field operations and government partnership → **C-G**
+- Local NGO implementing a government program → **C-G**
+- CBO with INGO technical support → **C** with coordination note
+- Women's cooperative running a CBE enterprise → **C** or **I-C** if commercially operating
+
+**How to find civil society CBE actors:**
+- SWC Nepal registered NGO database (swc.gov.np)
+- NGO Federation of Nepal member directory (ngofederation.org)
+- IATI database for all INGO projects in Nepal
+- ReliefWeb and UN OCHA databases for INGO program reports
+- FECOFUN for community forest user groups
+- National Cooperative Federation Nepal (ncf.coop) for cooperatives
+- BSP-Nepal and AEPC records for biogas user groups
+- Aid Management Platform Nepal (AMP) for donor-funded civil society programs
 
 **Classification symbols:**
-- `C` — Civil Society actor alone
-- `C-E` — Civil Society-Environment partnership (e.g., environmental NGO)
-- `C-I` — Civil Society-Industry partnership (e.g., NGO-private sector collaboration)
-- `I-C-E` — Industry-Civil Society-Environment (e.g., social enterprise with environmental mission)
+- `C` — Civil Society alone (local NGO, INGO, CBO operating independently)
+- `C-G` — Civil Society-Government (NGO/INGO implementing government programs)
+- `C-I` — Civil Society-Industry (NGO partnering with private CBE company)
+- `C-E` — Civil Society-Environment (environmental NGO or community with explicit environmental mission)
+- `C-A` — Civil Society-Academia (community organization partnering with research institute)
+- `G-I-C` — Government-Industry-Civil Society (coordinated sector development)
+- `I-C-E` — Industry-Civil Society-Environment (social enterprise with community and environmental mission)
 
 ### Environment (E)
 
-**Definition:** Environmental actors, natural resource management organizations, ecosystem stewardship initiatives, and organizations focused on environmental protection and sustainability.
+**Definition:** Non-state organizations whose engagement with CBE is directly grounded in one or more **CBE principles** — closing the biological loop, eliminating biological waste from linear disposal, regenerating ecosystems through biological cycling, or reducing greenhouse gas emissions from biological waste streams. E actors treat CBE not as a development or community tool, but as an environmental necessity: a response to the environmental damage caused by biological waste not being valorized.
 
-**Characteristics:**
-- Focuses on environmental protection and sustainability
-- Manages natural resources sustainably
-- Addresses climate change and emissions reduction
-- Protects biodiversity and ecosystems
-- Promotes Circular Bio Economy principles
+**The qualifying test for E actors in CBE research:**
+> "Does this organization engage with CBE because biological waste streams represent an environmental problem that CBE solves — or because CBE regenerates the ecosystem function they are protecting?"
 
-**Examples:**
-- Environmental NGOs (myclimate, Global Forest Coalition) — Climate and environmental focus
-- Ecosystem restoration programs — Environmental stewardship
-- Waste reduction and recycling initiatives — Environmental protection
-- Carbon offset and certification programs — Climate mitigation
+If yes → include as E. If the organization is broadly environmental but has no specific connection to biological waste valorization, loop closure, or ecosystem regeneration through CBE → do **not** include as E.
+
+**What does NOT qualify as E in CBE research:**
+- Organic certification bodies (IFOAM, IMO, NOFA) — certify product quality standards, not biological loop closure; an organically certified farm can still discard biological waste to landfill
+- General eco-label programs — assess product attributes, not waste valorization
+- Broad conservation organizations (WWF, IUCN) — qualify as E only if they have an **explicit program** linking biological waste valorization to their conservation mission; generic green economy advocacy does not qualify
+- Government environmental agencies (DoE, MoFE) → **G**, not E
+- Community organizations working on environment → **C**, not E
+- Private companies with environmental products → **I**, not E
+
+**Scope of actor types under Environment (E) — CBE-principle grounded:**
+
+| Actor Type | CBE Principle Engaged | Examples (Nepal) |
+|------------|----------------------|-----------------|
+| **GHG / Carbon Credit Organization** | Biological waste diversion from landfill/open burning reduces methane; CBE (biogas, composting) generates verifiable carbon reductions | Atmosfair, myclimate, Gold Standard, Verra/VCS, UNFCCC CDM projects |
+| **Biological Waste Stream Prevention Body** | Reducing biological waste that would otherwise enter linear disposal (landfill, incineration, open dumping) | Organizations with explicit bio-waste reduction mandates, zero bio-waste campaigns |
+| **Ecosystem Regeneration Organization** | CBE outputs (compost, digestate) regenerate soil health, water retention, and biodiversity — E actors that specifically value these outcomes | Soil health programs that promote compost application; watershed restoration using bio-residues |
+| **Environmental Impact Body for CBE Processes** | Ensuring CBE processes themselves do not cause new environmental harm (digestate management, leachate, air emissions from biorefining) | Environmental monitoring bodies, EIA firms specifically assessing CBE installations |
+| **Climate Adaptation Organization (bio-waste specific)** | Biological waste contributes to climate change (landfill methane, open burning); CBE is a mitigation strategy | Climate organizations with explicit bio-waste/bioenergy programs — only when CBE is named as the mechanism |
+
+**Characteristics of valid E actors in CBE research:**
+- Treats biological waste as an environmental problem whose solution is valorization, not disposal
+- Values or finances the environmental outcome of CBE (verified GHG reduction, soil regeneration, pollution prevention)
+- Monitors or regulates the environmental performance of CBE processes
+- Connects CBE explicitly to ecosystem health, climate targets, or biodiversity commitments — not as a side note but as the core rationale
+
+**Examples (Nepal CBE context — strictly CBE-principle relevant):**
+- **Atmosfair** — Certifies and finances Nepal household biogas as climate mitigation; pays for verified GHG reductions from diverting biological waste from open burning and fossil fuels; CBE principle: eliminating biological waste emissions
+- **myclimate Foundation** — Carbon offsetting through Nepal biogas CDM projects; direct financing of CBE via carbon market; CBE principle: closing biological energy loop with climate benefit
+- **Gold Standard Foundation** — Certifies Nepal biogas and composting projects for verified carbon reductions; CBE principle: environmental valuation of biological loop closure
+- **Verra / Verified Carbon Standard (VCS)** — Registers Nepal bio-waste and bioenergy projects under carbon standards; CBE principle: same as above
+- **ICIMOD** — Valid E actor only when specifically researching or promoting biological waste valorization as a mountain ecosystem service (e.g., biogas reducing deforestation pressure, composting restoring degraded soils); not valid as E for generic green economy work
+- **Soil and ecosystem health programs** — Organizations that specifically promote compost application or digestate use to regenerate degraded agricultural soils; CBE principle: ecosystem regeneration through biological cycling
+
+**Examples that do NOT qualify as E in CBE research:**
+- IFOAM / IMO / NOFA — organic certification tests farming inputs and practices, not whether biological waste is valorized; excluded
+- Rainforest Alliance — sustainable sourcing and deforestation prevention; not about biological waste loop closure; excluded
+- WWF Nepal / IUCN Nepal — valid only if they have an explicit program where CBE is the stated mechanism for conservation; generic green economy promotion does not qualify
+- Nepal Pollution Control Board — regulates industrial pollution broadly; qualifies as E only if specifically assessing bio-waste treatment impacts
+
+**How to find E actors that meet the CBE-principle test:**
+- UNFCCC CDM registry (cdm.unfccc.int) — Nepal projects in biogas, composting, bio-waste sectors; each project has a named E partner
+- Gold Standard project registry (goldstandard.org/projects) — filter by Nepal, bio-energy, waste
+- Verra/VCS registry (verra.org) — filter by Nepal biological waste and bioenergy project types
+- Atmosfair and myclimate Nepal project pages — both name specific program partners
+- Search "ecosystem regeneration compost Nepal", "soil health biodigester digestate Nepal", "biological waste climate Nepal"
+- Search EIA reports for Nepal biogas plants and composting facilities — named environmental monitoring organizations
+
+**Critical C vs E distinction table:**
+
+| Scenario | Classification | Reason |
+|----------|---------------|--------|
+| Community biogas group operating digesters | **C** | Community mobilization is the defining role |
+| Atmosfair certifying those digesters for carbon credits | **E** | GHG reduction from biological waste diversion is the defining role |
+| myclimate financing Nepal biogas for carbon offsets | **E** | Climate mitigation through bio-waste valorization |
+| Gold Standard certifying a composting project | **E** | Environmental valuation of biological loop closure |
+| WEPCO doing waste management with environmental awareness | **C** | Women's community mobilization defines it; environmental awareness alone does not make it E |
+| ICIMOD with explicit bio-waste-to-ecosystem-service program | **E** or **A-E** | CBE principle (ecosystem regeneration) is the explicit connection |
+| ICIMOD doing general mountain sustainability research | **A** only | No specific CBE-principle connection to biological waste valorization |
+| WWF Nepal generic green economy advocacy | **not E** | No explicit CBE-principle program |
+| Organic certification body certifying a composting company | **not E** | Certifies product quality, not biological loop closure |
 
 **Classification symbols:**
-- `E` — Environment actor alone
-- `E-C` — Environment-Civil Society partnership (e.g., environmental NGO)
-- `I-E` — Industry-Environment partnership (e.g., sustainable business)
-- `I-C-E` — Industry-Civil Society-Environment (e.g., social enterprise with environmental mission)
+- `E` — Environment alone (carbon certification body with no other helix involvement)
+- `E-C` — Environment-Civil Society (E organization working through communities to achieve CBE environmental outcomes)
+- `E-I` — Environment-Industry (carbon certifier partnering directly with CBE company)
+- `E-G` — Environment-Government (environmental monitoring body co-mandated with government on CBE)
+- `E-A` — Environment-Academia (ecosystem research body with explicit CBE-principle research mission)
+- `I-C-E` — Industry-Civil Society-Environment (CBE social enterprise with verified environmental outcome)
+- `G-I-C-E` — All four non-Academia actors (comprehensive CBE program with verified environmental impact)
 
 ## Classification Examples
 
